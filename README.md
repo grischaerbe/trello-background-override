@@ -7,4 +7,5 @@ Trello does not support personal board backgrounds and forces everyone to use th
 - Download and Extract
 - Go to the Extension Management and enable Developer Mode
 - Select "Load Unpacked Extension" and navigate to the extracted directory
+- Optional: Set the background color in "inject.css"
 - Optional: Restart Chrome
