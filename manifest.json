@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Trello Personal Background",
+  "version": "1.0.0",
+  "description": "Removes image backgrounds and forces a color background on all Trello boards",
+  "homepage_url": "https://legrisch.com",
+  "permissions": ["https://trello.com/b/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://trello.com/b/*"],
+      "css": ["inject.css"]
+    }
+  ]
+}
